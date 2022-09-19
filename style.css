@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Crete+Round:ital@0;1&family=Inter:wght@100;500&family=The+Nautigal&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Balsamiq", sans-serif;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #FFFF;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10rem;
+}
+nav #logo {
+    width: 124px;
+    height: 36.42px;
+    /* position: absolute;
+    top: 32px;
+    left: 56px; */
+} 
+
+nav ul {
+    display: flex;
+    gap: 32px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(104, 48, 0, 0.32);
+    transition: 1s ease;
+    
+}
+.active, a:hover {
+    color: #683000;
+    transition: 1s ease;
+}
+
+#carriage {
+    color: #6CBC60;
+    font-size: 18px;
+}
+
+.check-box {
+    font-size: 18px;
+    position: absolute;
+    display: none;
+}
+.hero-section {
+    background-image: url("/image/unsplash_BdLirgRtXOw.png");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    
+} 
+
+.hero-section h1 {
+    font-size: 60px;
+    Font-family: "Balsamiq Sans", sans-serif;
+    font-style: bold;
+    color: #FFFFFF;
+    text-align: left;
+    vertical-align: top;
+    line-height: 136px;
+    line-height: 126%;
+    letter-spacing: -4%;
+    font-weight: 700;
+}
+.hero-section span {
+    color: #6CBC60;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+.hero-section p {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    line-height: 139%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
+}
+.class-of-button {
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+#btn-1 {
+    background-color: #6CBC60;
+    padding: 24px 40px 24px 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "work sans", sans-serif;
+    border: transparent;
+    border-radius: 8px;
+}
+#btn-2 {
+    background-color: transparent;
+    padding: 24px 40px 24px 40px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-family: "work sans", sans-serif;
+    border-radius: 8px;
+}
+
+#img-1 {
+    width: 270.12px;
+    height: 392.15px;
+    margin-top: 132px;
+}
+
+.first-progress {
+    margin-top: 130px;
+}
+
+.second-section {
+    background-color: #F5E7E1;
+    height: 818px;
+    width: 100%;
+}
+
+.second-section h1 {
+    font-size: 38px;
+    color: #C57B57;
+    Font-family: "Balsamiq Sans", sans-serif;
+    font-style: bold;
+}
+.second-section span {
+    color: #6CBC60;
+}
+
+.second-section p {
+    font-size: 17px;
+    Font-family: "Balsamiq Sans", sans-serif;
+    color: #ece7e7;
+    text-align: left;
+    line-height: 32px;
+    line-height: 133%;
+    vertical-align: top;
+}
+
+#img-2 {
+    height: 511px;
+    width: 800px;
+    right: 1rem;
+    position: absolute;
+    margin-top: -48px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+}
+
+.second-section div {
+    margin-top: 200px;
+    
+}
+
+.third-section {
+    background-color: #FFFFFF;
+    height: 646px;
+    width: 100%;
+}
+.third-section h1 {
+    font-size: 38px;
+    font-style: bold;
+    line-height: 72px;
+    line-height: 125%;
+    text-align: left;
+    color: #C57B57;
+    vertical-align: top;
+}
+.third-section span {
+    color: #6CBC60;
+}
+.third-section p {
+    font-size: 18px;
+    font-family: "Balsamiq Sans", sans-serif;
+    line-height: 32px;
+    line-height: 133%;
+    text-align: left;
+    vertical-align: top;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+}
+
+.third-section-child h2 {
+    font-size: 24px;
+    Font-family: "Balsamiq Sans" sans-serif;
+    font-style: bold;
+    color: #111111;
+    text-align: left;
+}
+.child {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+
+}
+.third-section-child {
+    margin-top: 98px;
+}
+
+.child p::before {
+    content: url("/image/Ellipse\ 110.png");
+}
+#btn-3 {
+    padding: 18px 24px 18px 24px;
+    background-color: #6CBC60;
+    border: transparent;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "work sans", sans-serif;
+    margin-top: 40px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#img-3 {
+    width: 446px;
+    height: 456px;
+}
+/* .third-section div {
+    margin-top: 12px;
+} */
+.parent {
+    margin-top: 125px;
+}
+
+.forth-section {
+    background-color: #E8F4E6;
+    width: 100%;
+    height: 1072px;
+}
+
+.forth-section h1 {
+    font-size: 38px;
+    color: #C57B57;
+    font-style: bold;
+    line-height: 72px;
+    line-height: 175%;
+    font-family: "balsamiq sans", sans-serif;
+    margin-top: 9px;
+    text-align: center;
+}
+
+#img-4 {
+    width: 1010px;
+    height: 566px;
+    margin-left: 56px;
+    margin-top: 48px;
+    
+}
+
+#line-1 {
+    width: 370px;
+    height: 1px;
+    color: #6CBC60;
+
+}
+
+#btn-4 {
+    color: #6CBC60;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #6CBC60;
+    font-size: 13px;
+    padding: 18px 24px 18px 14px;
+    margin-top: -25px;
+    border-radius: 8px;
+}
+.forth-section div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 154px;
+
+}
+.firth-section h1 {
+    font-size: 38px;
+    font-family: "balsamiq sans", sans-serif;
+    font-style: bold;
+    line-height: 72px;
+    line-height: 125%;
+    text-align: center;
+    margin-top: 103px;
+    vertical-align: top;
+    color: #C57B57;
+}
+.firth-section span {
+    color: #6CBC60;
+    font-family: "balsamiq sans", sans-serif;
+}
+.firth-section p {
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    line-height: 72px;
+    line-height: 125%;
+    margin-top: 16px;
+}
+#img-5 {
+    width: 780px;
+    height: 600px;
+    display: flex;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+.six-section {
+    background-color: #F5E7E1;
+    height: 1087px;
+    width: 100%;
+}
+.six-section h1 {
+    color: #6CBC60;
+    font-size: 38px;
+    text-align: left;
+    font-style: bold;
+    font-family: "balsamiq sans", sans-serif;
+    margin-top: 127px;
+    margin-left: 25px;
+    
+
+}
+
+.six-section span {
+    color: #C57B57;
+    font-family: "balsamiq sans", sans-serif;
+    margin-top: 30px;
+}
+
+.six-section p {
+    font-size: 16px;
+    color: #666666;
+    font-family: "balsamiq sans", sans-serif;
+    line-height: 32px;
+    line-height: 133%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+#img-6 {
+    height: 487px;
+    width: 1000px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+#line-2 {
+    width: 370px;
+    height: 1px;
+    color: #C57B57;
+}
+
+#btn-5 {
+    color: #C57B57;
+    background-color: transparent;
+    border: 1px solid;
+    border-color:  #C57B57;
+    font-size: 13px;
+    padding: 18px 24px 18px 14px;
+    margin-top: -25px;
+    border-radius: 8px;
+}
+
+.six-section div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 130px;
+}
+
+.seventh h1 {
+    font-size: 38px;
+    color: #C57B57;
+    text-align: left;
+    line-height: 72px;
+    line-height: 125%;
+    vertical-align: top;
+    Font-family: "Balsamiq Sans", sans-serif;
+    font-style: bold;
+}
+.seventh span {
+    color: #6CBC60;
+    font-size: 38px;
+    Font-family: "Balsamiq Sans", sans-serif;
+    font-style: bold;
+}
+#img-8 {
+    width: 234px;
+    height: 195px;
+    margin-top: -20px;
+}
+
+.seventh p {
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    line-height: 32px;
+    line-height: 148%;
+    vertical-align: top;
+    Font-family: "Balsamiq Sans", sans-serif;
+}
+
+.seventh-section-child {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    margin-top: 128px;
+}
+.seventh-section {
+    height: 1695px;
+    width: 100%;
+}
+#img-7 {
+    width: 1000px;
+    height: 508px;
+    margin-top: 93px;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
